@@ -84,6 +84,7 @@ function playGame(humanChoice) {
         humanScore = 0
         computerScore = 0
         setBtnsText("Rock", "Paper", "Scissors")
+        result_txt.innerHTML = "Press a button to play"
     }
 }
 
